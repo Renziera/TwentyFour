@@ -14,13 +14,27 @@ public class PlayMenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_play_menu);
 
         Button hostGame = findViewById(R.id.hostgame);
+        Button joinGame = findViewById(R.id.joingame);
 
         hostGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PlayMenuActivity.this, GameActivity.class);
+                Intent intent = new Intent(PlayMenuActivity.this, RoundActivity.class);
+                intent.putExtra("baru", true);
                 startActivity(intent);
+                finish();
             }
         });
+
+        joinGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PlayMenuActivity.this, RoundActivity.class);
+                intent.putExtra("baru", true);
+                startActivity(intent);
+                finish();
+            }
+        });
+
     }
 }
