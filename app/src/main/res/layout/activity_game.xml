@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/kartu1"
+            android:layout_width="78dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/kartu0"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <ImageView
+            android:id="@+id/kartu2"
+            android:layout_width="78dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/kartu0"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <ImageView
+            android:id="@+id/kartu3"
+            android:layout_width="78dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/kartu0"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <ImageView
+            android:id="@+id/kartu4"
+            android:layout_width="78dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/kartu0"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="339dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/kartu5"
+            android:layout_width="78dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/kartu0"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <ImageView
+            android:id="@+id/kartu6"
+            android:layout_width="78dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/kartu0"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <ImageView
+            android:id="@+id/kartu7"
+            android:layout_width="78dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/kartu0"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <ImageView
+            android:id="@+id/kartu8"
+            android:layout_width="78dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/kartu0"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="339dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="151dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kartu0" />
+
+</android.support.constraint.ConstraintLayout>
