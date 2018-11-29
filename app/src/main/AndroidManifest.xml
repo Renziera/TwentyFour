@@ -20,7 +20,8 @@
         <activity android:name=".PlayMenuActivity" />
         <activity android:name=".GameActivity" />
         <activity android:name=".RoundActivity" />
-        <activity android:name=".ScoreActivity"></activity>
+        <activity android:name=".ScoreActivity" />
+        <activity android:name=".OptionActivity"></activity>
     </application>
 
 </manifest>

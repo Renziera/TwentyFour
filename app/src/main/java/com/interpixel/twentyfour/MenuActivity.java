@@ -15,11 +15,20 @@ public class MenuActivity extends AppCompatActivity {
 
         Button playButton = findViewById(R.id.playbutton);
         Button exitButton = findViewById(R.id.exit);
+        Button optionButton = findViewById(R.id.option);
 
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MenuActivity.this, PlayMenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        optionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, OptionActivity.class);
                 startActivity(intent);
             }
         });
